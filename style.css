@@ -1,0 +1,8 @@
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    margin: 30px 200px;
+}
