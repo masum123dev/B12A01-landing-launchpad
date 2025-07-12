@@ -20,10 +20,10 @@ nav{
     background-color: #4E47FF;
     color: white;
     border-radius: 5px;
-    text-decoration: none;
     width: 100px;
     height: 40px;
     margin-top: 30px;
+    margin-right: 25px;
     list-style-type: none;
 }
 
@@ -44,7 +44,7 @@ nav{
         border-radius: 6px;
 }
 
-/* this is action section */
+/* This is action section style */
 .action{
     display: flex;
     margin: 10px 100px 10px 100px;
@@ -63,10 +63,12 @@ nav{
 }
 .img-new{    
     border: 2px solid blanchedalmond;
-    border-radius: 15px;
+    border-radius: 20px;
     height: 200px;
     width: 250px;
-    margin-top: 15px;
+    margin-top: 30px;
+    
+
 }
 .btn-new{
     background-color: #4E47FF;
@@ -76,7 +78,7 @@ nav{
     border-radius: 5px;
 }
 
-/* this is number section */
+/* This is number section style */
 .number{
     margin: 10px 100px 10px 100px;
     background-color: rgb(179, 214, 203);
@@ -87,49 +89,23 @@ nav{
 .number-title{
     font-size: 30px;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-    align-items: center;
+    text-align: center;
 }
 .number-new{
     display: flex;
     justify-content: space-around;
     padding: 0px 250px 250px 0px;
-    margin: 2px;
-}
-/* feedback section starst here */
-
-
-.feedback{
-    background-color: rgb(204, 237, 238);
-    height: 400px;
-    display: flex;    
-    height: 250px;
-    margin: 10px 100px 10px 100px;
-    border-radius: 10px;
-
-}
-.feedback-title{    
-    font-weight: 800px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    align-items: center;
-    
-}
-.icon-title{
-    padding: 15px;
-}
-.icon{
-
+    margin-left: 200px;
 }
 
-/* this is contact section */
+/* This is contact section style */
 .contact{
-    height: 280px;
+    height: 320px;
     background-color: beige;
     border-radius: 10px;
     margin: 10px 100px 10px 100px;
     padding: 10px;
     display: flex;
-    padding: 10px;
     gap: 220px;
 }
 .contact-headline{
@@ -145,6 +121,16 @@ nav{
     margin: 0px;   
     list-style-type: none; 
 }
+
+.contact-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* This is footer section style */
 .footer-section{    
     display: flex;
     margin: 10px 100px 10px 100px;
@@ -165,5 +151,5 @@ nav{
     display: flex;
     gap: 30px;
     list-style-type: none;
-    align-items: center;
+    margin: 0px 350px 0px 300px;
 }
