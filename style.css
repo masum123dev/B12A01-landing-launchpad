@@ -12,7 +12,8 @@ nav{
 
 .logo{
     color: #4E47FF; 
-    list-style-type: none;     
+    list-style-type: none;
+    margin-top: 30px;     
 }
 
 .sign-btn{
@@ -22,6 +23,8 @@ nav{
     text-decoration: none;
     width: 100px;
     height: 40px;
+    margin-top: 30px;
+    list-style-type: none;
 }
 
 .nav-title{
@@ -37,18 +40,19 @@ nav{
         color: white;        
         height: 40px;
         width: 120px;
-        margin: 0px 265px 30px 440px;
+        margin: 0px 265px 60px 440px;
+        border-radius: 6px;
 }
 
 /* this is action section */
 .action{
     display: flex;
     margin: 10px 100px 10px 100px;
-    padding: 20px 250px 250px 30px;
+    padding: 20px 250px 60px 30px;
     align-items: center;
     background-color: hsl(30, 31%, 89%);
-    border-radius: 5px;
-    height: 190px;
+    border-radius: 9px;
+    height: 200px;
 }
 .action-new{
     margin: 80px;
@@ -57,12 +61,12 @@ nav{
 .action-title{
     font-size: 40px;
 }
-.img-new{
-    padding: 30px;
+.img-new{    
     border: 2px solid blanchedalmond;
     border-radius: 15px;
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
+    margin-top: 15px;
 }
 .btn-new{
     background-color: #4E47FF;
@@ -138,6 +142,28 @@ nav{
     align-items: left;
     padding: 0px;
     text-decoration: none;
-    margin: 0px;
-    
+    margin: 0px;   
+    list-style-type: none; 
+}
+.footer-section{    
+    display: flex;
+    margin: 10px 100px 10px 100px;
+    padding: 5px 250px 60px 30px;
+    align-items: center;
+    background-color: hsl(30, 82%, 78%);
+    border-radius: 9px;
+    height: 170px;
+}
+.footer-logo img{
+    margin: 0px 350px 0px 450px;
+
+}
+.footer-logo p{
+    text-align: center;
+}
+.footer-menu{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
 }
