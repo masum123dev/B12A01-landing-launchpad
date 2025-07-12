@@ -1,8 +1,30 @@
 .nav-ul{
     display: flex;
     justify-content: space-between;
+    
 }
 
 nav{
     margin: 30px 200px;
+    background-image: url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 698px;
+    gap: 158;
+    margin: 0px;
+}
+
+.logo, .sign-btn{
+    color: #4E47FF; 
+    list-style-type: none;    
+}
+
+.sign-btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+}
+.nav-title{
+
 }
